@@ -49,7 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install -D %{SOURCE1} $RPM_BUILD_ROOT%{_pixmapsdir}
+install -D %{SOURCE1} $RPM_BUILD_ROOT%{_pixmapsdir}/%{name}.png
 
 %clean
 rm -rf $RPM_BUILD_ROOT
