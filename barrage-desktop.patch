@@ -11,5 +11,5 @@ diff -Nur barrage-1.0.1/barrage.desktop barrage-1.0.1-desktop/barrage.desktop
  Exec=barrage
  Terminal=0
  Type=Application
-+Categories=Application;Games;Arcade;
++Categories=Application;Game;ArcadeGame;
 +# vi: encoding=utf-8
