@@ -1,12 +1,12 @@
 Summary:	Kill and destroy as many target as possible in 3 minutes
 Summary(pl):	Zniszcz jak najwiêcej wrogów w przeci±gu 3 minut
 Name:		barrage
-Version:	1.0.1
-Release:	3
+Version:	1.0.2
+Release:	1
 License:	GPL v2
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/lgames/%{name}-%{version}.tar.gz
-# Source0-md5:	5b0dd010c9c0be1e5391631c8a2844ee
+# Source0-md5:	5dbecef907eb27215e8cc047eae2ee90
 Source1:	%{name}.png
 Patch0:		%{name}-desktop.patch
 URL:		http://lgames.sourceforge.net/index.php?project=Barrage
@@ -35,7 +35,6 @@ dobrych wyników jest trudnym zadaniem.
 %patch0 -p1
 
 %build
-rm -f missing
 %{__aclocal}
 %{__autoconf}
 %{__autoheader}
