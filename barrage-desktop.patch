@@ -1,15 +1,17 @@
 diff -Nur barrage-1.0.1/barrage.desktop barrage-1.0.1-desktop/barrage.desktop
 --- barrage-1.0.1/barrage.desktop	Wed Apr 23 10:37:37 2003
 +++ barrage-1.0.1-desktop/barrage.desktop	Tue Apr 29 14:31:38 2003
-@@ -1,7 +1,10 @@
+@@ -1,7 +1,11 @@
  [Desktop Entry]
++Encoding=UTF-8
  Name=Barrage
 -Categories=X-Red-Hat-Base;Application;Game;ArcadeGame;
  Comment=Kill and destroy as many targets as possible within 3 minutes
 +Comment[pl]=Zniszcz jak najwiêcej wrogów w przeci±gu 3 minut
 +Icon=barrage.png
  Exec=barrage
- Terminal=0
+-Terminal=0
++Terminal=false
  Type=Application
 +Categories=Application;Game;ArcadeGame;
 +# vi: encoding=utf-8
