@@ -26,9 +26,9 @@ not that easy to get high scores.
 %description -l pl
 Barrage jest do¶æ brutaln± gr± akcji, której celem jest zniszczenie
 jak najwiêkszej ilo¶ci przeciwników w przeci±gu 3 minut. Gracz steruje
-broni±, która mo¿e wystrzeliwywaæ zarówno ma³e jak i du¿e granaty w
-kierunku ¿o³nierzy, jeepów i czo³gów. Zasady s± proste, lecz
-osi±gniêcie dobrych wyników jest trudnym zadaniem.
+broni±, która mo¿e wystrzeliwaæ zarówno ma³e jak i du¿e granaty w
+kierunku ¿o³nierzy, jeepów i czo³gów. Zasady s± proste, lecz osi±gniêcie 
+dobrych wyników jest trudnym zadaniem.
 
 %prep
 %setup -q
