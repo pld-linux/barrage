@@ -44,9 +44,11 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 install -d $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
+
 install %{SOURCE1} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -57,5 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog README AUTHORS
 %attr(2755,root,games) %{_bindir}/*
 %{_datadir}/games/%{name}
-%{_datadir}/applications/*.desktop
+%{_desktopdir}/*.desktop
 %{_pixmapsdir}/*.png
