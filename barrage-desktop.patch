@@ -7,7 +7,7 @@ diff -Nur barrage-1.0.1/barrage.desktop barrage-1.0.1-desktop/barrage.desktop
  Name=Barrage
 -Categories=X-Red-Hat-Base;Application;Game;ArcadeGame;
  Comment=Kill and destroy as many targets as possible within 3 minutes
-+Comment[pl]=Zniszcz jak najwiêcej wrogów w przeci±gu 3 minut
++Comment[pl]=Zniszcz jak najwiÄ™cej wrogÃ³w w przeciÄ…gu 3 minut
 +Icon=barrage.png
  Exec=barrage
 -Terminal=0
