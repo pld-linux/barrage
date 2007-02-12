@@ -1,5 +1,5 @@
 Summary:	Kill and destroy as many target as possible in 3 minutes
-Summary(pl):	Zniszcz jak najwiêcej wrogów w przeci±gu 3 minut
+Summary(pl.UTF-8):   Zniszcz jak najwiÄ™cej wrogÃ³w w przeciÄ…gu 3 minut
 Name:		barrage
 Version:	1.0.2
 Release:	2
@@ -23,12 +23,12 @@ controls a gun that may either fire small or large grenades at
 soldiers, jeeps and tanks. It is a very simple gameplay though it is
 not that easy to get high scores.
 
-%description -l pl
-Barrage jest do¶æ brutaln± gr± akcji, której celem jest zniszczenie
-jak najwiêkszej ilo¶ci przeciwników w przeci±gu 3 minut. Gracz steruje
-broni±, która mo¿e wystrzeliwaæ zarówno ma³e jak i du¿e granaty w
-kierunku ¿o³nierzy, jeepów i czo³gów. Zasady s± proste, lecz osi±gniêcie 
-dobrych wyników jest trudnym zadaniem.
+%description -l pl.UTF-8
+Barrage jest doÅ›Ä‡ brutalnÄ… grÄ… akcji, ktÃ³rej celem jest zniszczenie
+jak najwiÄ™kszej iloÅ›ci przeciwnikÃ³w w przeciÄ…gu 3 minut. Gracz steruje
+broniÄ…, ktÃ³ra moÅ¼e wystrzeliwaÄ‡ zarÃ³wno maÅ‚e jak i duÅ¼e granaty w
+kierunku Å¼oÅ‚nierzy, jeepÃ³w i czoÅ‚gÃ³w. Zasady sÄ… proste, lecz osiÄ…gniÄ™cie 
+dobrych wynikÃ³w jest trudnym zadaniem.
 
 %prep
 %setup -q
