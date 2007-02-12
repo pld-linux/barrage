@@ -1,5 +1,5 @@
 Summary:	Kill and destroy as many target as possible in 3 minutes
-Summary(pl.UTF-8):   Zniszcz jak najwięcej wrogów w przeciągu 3 minut
+Summary(pl.UTF-8):	Zniszcz jak najwięcej wrogów w przeciągu 3 minut
 Name:		barrage
 Version:	1.0.2
 Release:	2
