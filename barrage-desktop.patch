@@ -1,12 +1,10 @@
---- barrage-1.0.4/barrage.desktop.orig	2016-09-06 21:45:06.587980962 +0200
-+++ barrage-1.0.4/barrage.desktop	2016-09-06 21:45:09.334647597 +0200
-@@ -1,7 +1,8 @@
- [Desktop Entry]
+--- barrage-1.0.7/barrage.desktop.in.orig	2023-04-29 17:33:51.000000000 +0200
++++ barrage-1.0.7/barrage.desktop.in	2024-06-15 19:35:40.012198230 +0200
+@@ -2,6 +2,7 @@
  Name=Barrage
  Comment=A rather destructive action game.
+ Comment[de]=Ein eher destruktives Action-Spiel
 +Comment[pl]=Dość destruktywna gra akcji.
  Exec=barrage
- Icon=barrage.png
+ Icon=
  Type=Application
--Categories=Game;
-+Categories=Game;ArcadeGame;

@@ -1,17 +1,19 @@
 Summary:	Kill and destroy as many target as possible in 3 minutes
 Summary(pl.UTF-8):	Zniszcz jak najwięcej wrogów w przeciągu 3 minut
 Name:		barrage
-Version:	1.0.4
+Version:	1.0.7
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
-Source0:	http://downloads.sourceforge.net/lgames/%{name}-%{version}.tar.gz
-# Source0-md5:	8c767edc4cf3f84cbfb6dc19e24f5743
+Source0:	https://downloads.sourceforge.net/lgames/%{name}-%{version}.tar.gz
+# Source0-md5:	0bb7a7033e467c95210852029366df4f
 Patch0:		%{name}-desktop.patch
-URL:		http://lgames.sourceforge.net/Barrage
+Patch1:		%{name}-icondir.patch
+URL:		https://lgames.sourceforge.net/Barrage
+BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer-devel
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.69
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,13 +34,15 @@ osiągnięcie dobrych wyników jest trudnym zadaniem.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
-%{__aclocal}
+%{__aclocal} -I m4
 %{__autoconf}
 %{__autoheader}
 %{__automake}
-%configure
+%configure \
+	--localstatedir=/var/games
 %{__make}
 
 %install
@@ -54,6 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS BUGS ChangeLog README
 %attr(2755,root,games) %{_bindir}/barrage
-%{_datadir}/games/%{name}
+%{_datadir}/barrage
+%attr(664,root,games) /var/games/barrage.hscr
 %{_desktopdir}/barrage.desktop
-%{_iconsdir}/hicolor/*/apps/%{name}.png
+%{_pixmapsdir}/barrage48.png
